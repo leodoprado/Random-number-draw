@@ -13,16 +13,17 @@
             <h1>Random Number Draw</h1>
         </header>
         <section>
-            <form action="" id="formulario" method="post">
-                <label for="number">Número máximo:</label>
-                <input type="text" id="input-number1">
+            <form action="" method="post" id="formulario">
+                <label>Número máximo:</label>
+                <input type="number" id="numero-maximo">
 
-                <label for="number">Quantidade de números:</label>
-                <input type="text" id="input-number2">
+                <label>Quantidade de números:</label>
+                <input type="number" id="quantidade-de-numeros">
 
-                <button type="submit">Sortear</button>
+                <button type="submit" onclick="sortear()">Sortear</button>
             </form>
         </section>
+        <div id="resultado"><ul id="lista"></ul></div>
     </section>
     <script src="assets/JS/main.js"></script>
 </body>

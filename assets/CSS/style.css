@@ -93,7 +93,3 @@ form button {
 form button:hover{
     background: var(--primary-color-darker);
 }
-
-.input-number1 {
-    margin-bottom: 10px;
-}
