@@ -43,7 +43,7 @@ function mostrarNumerosNoHtml(numeros) {
 }
 
 function sortear() {
- 
+
     const { valorMaximo, quantidadeNumeros } = pegarValoresHtml()
 
     if (valorMaximo < quantidadeNumeros) {
@@ -72,4 +72,8 @@ function gerarNumerosAleatorios() {
     }
 
     return numeros
+}
+
+function limpar() {
+    numeros.splice (0, numeros.length);
 }

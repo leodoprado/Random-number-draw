@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
-    <section class="container">
-        <header>
-            <h1>Random Number Draw</h1>
-        </header>
-        <section>
-            <form action="" method="post" id="formulario">
-                <label>Número máximo:</label>
-                <input type="number" id="numero-maximo">
+    <div class="container">
+        <section class="container-conteudo">
+            <header>
+                <h1>Random Number Draw</h1>
+            </header>
+            <div class="container-formulario">
+                <form action="" method="post" id="formulario">
+                    <label>Número máximo:</label>
+                    <input type="number" id="numero-maximo">
 
-                <label>Quantidade de números:</label>
-                <input type="number" id="quantidade-de-numeros">
+                    <label>Quantidade de números:</label>
+                    <input type="number" id="quantidade-de-numeros">
 
-                <button type="submit" onclick="sortear()">Sortear</button>
-            </form>
+                    <button type="submit" onclick="sortear()">Sortear</button>
+                </form>
+            </div>
+            <div id="resultado"><ul id="lista"></ul></div>
         </section>
-        <div id="resultado"><ul id="lista"></ul></div>
-    </section>
+    </div>
     <script src="assets/JS/main.js"></script>
 </body>
 </html>
